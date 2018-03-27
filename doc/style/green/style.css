@@ -1,0 +1,107 @@
+
+/* global settings*/
+* {
+	list-style-position: inside;
+	font: Tahoma, Arial;
+	color: #00FF04;
+}
+
+input {
+   background: black;
+   border: solid 1px #00FF04;
+}
+
+input:hover {
+   border-color: black;
+}
+
+textarea {
+   background: black;
+   border: solid 1px #00FF04;
+}
+
+img {
+   border: 0px;
+}
+
+body {
+   background: black url(./background.png);
+   text-align: center;
+}
+
+a:hover {
+	color: red;
+}
+
+#main {
+   background: black url('./menuTile.png') repeat-y ;
+}
+
+#head {
+background: #00FF04 url('./head.png') no-repeat ;
+}
+
+#content {
+}
+
+#menu {
+}
+
+#menu ul {
+}
+
+#menu .menuHeader {
+   
+}
+
+#menu .menuContent {
+}
+
+#menu .menuContent li {
+}
+
+#menu .menuContent li a {
+   border-bottom: solid 1px #444444;
+   border-top: solid 1px #aaaaaa;
+}
+
+#menu .menuContent li a:hover {
+	background: #FF000C;
+   color: black;
+}
+
+#bottom {
+background: #00FF04;
+}
+
+#bottom p {
+}
+
+.author {
+}
+
+/*
+.highLighted
+{
+   border-bottom: solid 1px #444444;
+   border-right: solid 1px #444444;
+   border-top: solid 1px #aaaaaa;
+   border-left: solid 1px #aaaaaa;
+}
+*/
+
+#content h1 {
+   background: url('./toRightHor.png') repeat-y;
+   color: black;
+}
+
+/* fotoDIV */
+.contentDiv {
+}
+
+.contentDiv img {
+}
+
+.contentDiv div.header {
+   background: url('./toRightHor.png') repeat-y;
+}
